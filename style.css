@@ -20,3 +20,23 @@ aside#sign-up-banner {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#banner-logo {
+    position: relative;
+    top: 30%;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(46, 64, 49, 0.7);
+    font-size: 4rem;
+    color: white;
+}
+
+#banner-logo > img {
+    max-width: 120px;
+    height: 100%;
+    object-fit: cover;
+}
