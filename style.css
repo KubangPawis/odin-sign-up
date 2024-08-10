@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -10,6 +12,10 @@ html,
 body {
     height: 100%;
     overflow: hidden;
+}
+
+body {
+    font-family: system-ui, sans-serif;
 }
 
 aside#sign-up-banner {
@@ -31,6 +37,7 @@ aside#sign-up-banner {
     width: 100%;
     padding: 2rem;
     background-color: rgba(46, 64, 49, 0.7);
+    font-family: Oswald;
     font-size: 4rem;
     color: white;
 }
