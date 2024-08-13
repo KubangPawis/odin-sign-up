@@ -20,7 +20,12 @@ body {
 }
 
 main#sign-up-content {
+    background-color: #F2F2F2;
     padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
 }
 
 aside#sign-up-banner {
@@ -57,4 +62,29 @@ aside#sign-up-banner {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.sign-up-form {
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+}
+
+.sign-up-form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-control-row {
+    display: flex;
+    gap: 3rem;
+}
+
+.form-control > * {
+    display: block;
+}
+
+.form-control > label {
+    font-size: 
 }
