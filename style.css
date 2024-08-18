@@ -75,7 +75,7 @@ aside#sign-up-banner {
     gap: 2rem;
 }
 
-.sign-up-form {
+.main-form-container {
     width: 100%;
     background-color: white;
     padding: 2rem;
@@ -84,7 +84,7 @@ aside#sign-up-banner {
 .sign-up-form > form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .form-control-row {
@@ -95,4 +95,15 @@ aside#sign-up-banner {
 
 .form-control > * {
     display: block;
+}
+
+.form-button {
+    background-color: #5B6D48;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 4rem;
+    width: max-content;
 }
