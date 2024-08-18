@@ -32,7 +32,6 @@ input {
 
 main#sign-up-content {
     background-color: #F2F2F2;
-    padding: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,6 +69,7 @@ aside#sign-up-banner {
 
 .sign-up-header {
     max-width: 80%;
+    margin-inline: 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -78,7 +78,7 @@ aside#sign-up-banner {
 .main-form-container {
     width: 100%;
     background-color: white;
-    padding: 2rem;
+    padding: 2rem 3rem;
 }
 
 .sign-up-form > form {
@@ -104,6 +104,7 @@ aside#sign-up-banner {
     color: white;
     font-size: 1rem;
     font-weight: bold;
+    margin-inline: 3rem;
     padding: 1rem 4rem;
     width: max-content;
 }
