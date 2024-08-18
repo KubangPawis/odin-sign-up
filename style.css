@@ -35,7 +35,7 @@ main#sign-up-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
 aside#sign-up-banner {
@@ -107,4 +107,14 @@ aside#sign-up-banner {
     margin-inline: 3rem;
     padding: 1rem 4rem;
     width: max-content;
+}
+
+#login-redirect {
+    margin-inline: 3rem;
+    font-size: 1.125rem;
+}
+
+#login-redirect a {
+    color: #5B6D48;
+    text-decoration: none;
 }
