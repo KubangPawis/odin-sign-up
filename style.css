@@ -78,6 +78,7 @@ aside#sign-up-banner {
 .main-form-container {
     width: 100%;
     background-color: white;
+    box-shadow: 0px 3px 5px #ADADAD;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
