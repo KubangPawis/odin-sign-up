@@ -122,6 +122,10 @@ aside#sign-up-banner {
   width: max-content;
 }
 
+.form-button:hover {
+  background-color: #78915d;
+}
+
 #login-redirect {
   margin-inline: 3rem;
   font-size: 1.125rem;
